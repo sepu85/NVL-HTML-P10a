@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi pagina de prueba</title>
+  </head>
+  <body>
+<form method="post" action="miservidor.php">
+    <div>
+      <label for=”CP”>Codigo Postal:</label>
+      <input id=”CP” type=”number”>
+    </div>
+   <div>
+      <label for=”satis”>Siendo "1" Muy satisfecho y "5" poco o nada satisfecho. Que tan satischecho se encuentra usted con el producto?:</label>
+      <select id=”pais”>
+        <option value=”1”>1</option>
+        <option value=”2”>2</option>
+        <option value=”3”>3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+      </select>
+  </div>
+  <div>
+     <label for="email">email:</label>
+     <input id="email" type="text">
+  </div>
+  <div>
+     <label for "ppos">Indiquenos por favor lo que mas le ha gustado del producto:</label>
+     <textarea id="ppos"></textarea>
+  </div> 
+ <div>
+     <label for "pneg">Indiquenos por favor lo que menos le ha gustado del producto:</label>
+     <textarea id="pneg"></textarea>
+  </div>
+ <div>
+   <p> A continuacion se presentara una lista de las caracteristicas del producto, indiquenos por favor su nivel de agrado para cada una de ellas:</p>
+  <ol>
+	<li><label for="des">Diseno:</label>
+	<select id="des">
+	  <option value="5">Excelente</option>
+	  <option value="4">Bueno</option>
+	  <option value="3">Regular</option>
+	  <option value="2">malo</option>
+	  <option value="1">Pesimo</option>
+	</select></li>
+	 <li><label for="mat">Material:</label>
+        <select id="mat">
+          <option value="5">Excelente</option>
+          <option value="4">Bueno</option>
+          <option value="3">Regular</option>
+          <option value="2">malo</option>
+          <option value="1">Pesimo</option>
+        </select></li>
+ <li><label for="tex">Textura:</label>
+        <select id="tex">
+          <option value="5">Excelente</option>
+          <option value="4">Bueno</option>
+          <option value="3">Regular</option>
+          <option value="2">malo</option>
+          <option value="1">Pesimo</option>
+        </select></li>
+ <li><label for="olo">Olor:</label>
+        <select id="olo">
+          <option value="5">Excelente</option>
+          <option value="4">Bueno</option>
+          <option value="3">Regular</option>
+          <option value="2">malo</option>
+          <option value="1">Pesimo</option>
+        </select></li>
+</ol>
+</div>
+  <input type=”submit” value=”Enviar”> 
+</form>
+</body>
+</html>
